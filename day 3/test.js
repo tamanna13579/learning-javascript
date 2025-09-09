@@ -1,4 +1,4 @@
-
+import move from "../my practice2"
 //let obj = [10, 50,"sumon","rumon",true,undefined,null];
 
 let info ={

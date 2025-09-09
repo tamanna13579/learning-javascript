@@ -33,3 +33,5 @@ let movie = {
 
 
 console.log(movie.name  + ","+movie.cast +"  "+ " it was a" , movie.genre , " movie" + " , "+ "published in " ,movie.year +"."+"it was a " , movie.result  +" " , "in ",movie.country +".");
+
+
