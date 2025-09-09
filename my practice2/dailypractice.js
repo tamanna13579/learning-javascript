@@ -75,7 +75,7 @@ let book = {
 
 // want to print a description about the book using these object 
 
-console.log("The book"+" "+book.name+" is written by"+" "+book.author+" "+"in"+" "+book.publish+" "+"by "+book.publisher+(" company") +".");
+console.log("The book"+" "+book.name+" is written by"+" "+book.author+" "+"in"+" "+book.publish+","+"published by "+book.publisher+(" company") +".");
 
 
 console.log(book.name+" "+"is "+"generally"+ " a book"+ " of "+book.genre+" "+"with the"+ " heading"+" "+book.tagline+"."+"it is for"+" "+book.reader+"."+ " In"+" the year"+" "+ book.publish+" "+book.name+" "+"was the "+ book.result+" book in"+" "+book.platform+"."+book.platform+" sold "+" "+book.quantity+" "+"copies"+" in "+book.publish+".");
