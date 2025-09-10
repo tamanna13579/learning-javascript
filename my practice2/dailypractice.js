@@ -39,9 +39,12 @@ console.log("finally"+" "+family.name+" "+"started living"+" "+"in"+" "+family.n
 */
 
 
+
+
+
 //want to make a book object .with title,author,publish year
 
-console.log("Atomic Habit");
+/*console.log("Atomic Habit");
 
 let book = {
 
@@ -72,6 +75,8 @@ let book = {
 
     tagline : "Tiny changes,remarkable results",
 }
+book.name = "Harry poter";//value change korar dorkar hole evabe baire kora zay.
+book.story ="motivational";
 
 // want to print a description about the book using these object 
 
@@ -80,6 +85,27 @@ console.log("The book"+" "+book.name+" is written by"+" "+book.author+" "+"in"+"
 
 console.log(book.name+" "+"is "+"generally"+ " a book"+ " of "+book.genre+" "+"with the"+ " heading"+" "+book.tagline+"."+"it is for"+" "+book.reader+"."+ " In"+" the year"+" "+ book.publish+" "+book.name+" "+"was the "+ book.result+" book in"+" "+book.platform+"."+book.platform+" sold "+" "+book.quantity+" "+"copies"+" in "+book.publish+".");
 
+
+
 console.log(book.name+" "+"was translated"+" "+"into "+book.language+" "+"languages"+" "+book.region+".");
 
 console.log("The price of the "+book.name+" "+"is"+" "+book.price+" "+"in"+" "+book.country+".");
+
+console.log(book.story);
+
+*/
+
+
+// learning string methods
+
+let str = "Sayeeda Tamanna Tania";
+
+console.log(str);
+console.log(str.length); // string er length count space soho kora hoy.
+console.log(str.toUpperCase()); //full name upper case ba capital letter hoye geche
+
+console.log(str.slice(-5))//slice diye name alada kore select kora zay, +,- diye lora hoy
+
+console.log(str.slice(0,7));
+
+console.log(str.replace('Tania','soni')); // replace diye zekono nam replce kora zay
